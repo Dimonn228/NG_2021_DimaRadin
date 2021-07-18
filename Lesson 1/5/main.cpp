@@ -13,23 +13,26 @@ int main()
     cout << "Vvedite deistvie: ";
     cin >> act;
 
-    cout << "Resultat = ";
+    cout << "Resultat: ";
 
-    switch(act){
+    switch (act) {
 
-        case 1:
-            cout << firstNum + secondNum;
-            break;
-        case 2:
-            cout << firstNum - secondNum;
-            break;
-        case 3:
-            cout << firstNum * secondNum;
-            break;
-        case 4:
-            cout << firstNum / secondNum;
-            break;
+    case 1:
+        cout << firstNum + secondNum;
+        break;
+    case 2:
+        cout << firstNum - secondNum;
+        break;
+    case 3:
+        cout << firstNum * secondNum;
+        break;
+    case 4:
+        cout << firstNum / secondNum;
+        break;
+    default:
+        cout << "Nepravilnoe chislo deistviya!";
     }
 
     return 0;
 }
+
