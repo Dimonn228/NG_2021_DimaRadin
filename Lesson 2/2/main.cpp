@@ -13,8 +13,11 @@ int main()
 
         cout << i;
 
-        if (i != number)
-            cout << ", ";
+        while (i < number){
+            cout << ",";
+            break;
+        }
+
     }
 
     return 0;
