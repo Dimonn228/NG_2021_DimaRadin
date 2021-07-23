@@ -25,19 +25,9 @@ int main()
 		cout << endl;
 	}
 
-	for (int i = 1; i < 2; i++) {
+	cout.width(size);
+	cout << "*";
 
-		for (int j = 1; j < size; j++) {
-
-			cout << " ";
-		}
-
-		for (int k = size - 1; k < size; k++) {
-
-			cout << "*";
-		}
-
-	}
-
+	return 0;
 }
 
