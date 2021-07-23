@@ -9,16 +9,12 @@ int main()
     cout << "Vvedite chislo: ";
     cin >> number;
 
-    for (int i = 0; i <= number; i++){
+    for (int i = 0; i < number; i++){
 
-        cout << i;
-
-        while (i < number){
-            cout << ",";
-            break;
-        }
-
+        cout << i << ", ";
     }
+
+    cout << number;
 
     return 0;
 }
