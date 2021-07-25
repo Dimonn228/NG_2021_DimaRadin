@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int array[10], num = 0;
+    int array[10] = { 0 }, num = 0, count = 0;;
 
     for (int i = 0; i < 10; i++) {
 
@@ -19,15 +19,20 @@ int main()
 
         if (array[i] == num) {
 
-            cout << "Ya znayu etu shkolu!";
-            exit(0);
+            count++;
         }
+
     }
 
-    cout << "Ya ne znayu etu shkolu!";
+    if (count != 0) {
+
+        cout << "Ya znayu etu shkolu!";
+    } else {
+
+        cout << "Ya ne znayu etu shkolu!";
+    }
 
     return 0;
 }
-
 
 
