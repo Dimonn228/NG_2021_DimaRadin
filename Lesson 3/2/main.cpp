@@ -18,7 +18,7 @@ int main()
 		if (number < 0){
 
 		    cout << "Nepravilnaya summa!\n\n";
-            continue;
+		    continue;
 		}
 
 		array[card - 1] += number;
