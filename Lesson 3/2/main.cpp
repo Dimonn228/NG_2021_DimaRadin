@@ -17,7 +17,7 @@ int main()
 
 		if (number < 0){
 
-            cout << "Nepravilnaya summa!\n\n";
+		    cout << "Nepravilnaya summa!\n\n";
             continue;
 		}
 
